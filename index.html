@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paragliding Adventure</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="hero">
+    <h1>Experience the Thrill of Paragliding</h1>
+    <p>Soar through the sky and witness breathtaking views like never before.</p>
+    <a href="#services" class="cta-button">Book Your Adventure</a>
+  </section>
+  
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-card">
+      <img src="img/Bir Billing Paragliding.jpg" width="500px">
+      <h3>Paragliding</h3>
+      <p>Take flight and enjoy the exhilaration of paragliding amidst picturesque mountains.</p>
+      <a href="paragliding-details.html" class="cta-button">Learn More</a>
+    </div>
+    <div class="service-card">
+      <img src="img/375-3994859.jpg" width="500px" />
+      <h3>Bungee Jumping</h3>
+      <p>Leap into the void and experience the adrenaline rush of bungee jumping at stunning locations.</p>
+      <a href="bungee-jumping-details.html" class="cta-button">Learn More</a>
+    </div>
+  </section>
+  
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-card">
+      <img src="profile/unnamed_004.png" width="50px" />
+      <p>"Paragliding with Paragliding Adventure was an incredible experience. The team ensured our safety and made us feel comfortable throughout the adventure. Highly recommended!"</p>
+      <p class="customer-name">- John Doe</p>
+    </div>
+    <div class="testimonial-card">
+      <img src="profile/unnamed_005.png" width="50px" />
+      <p>"I had the time of my life bungee jumping with Paragliding Adventure. The staff was friendly, and the location was breathtaking. Will definitely do it again!"</p>
+      <p class="customer-name">- Jane Smith</p>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Ready for your adventure? Get in touch with us now!</p>
+    <form action="contact-form-handler.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Paragliding Adventure. All rights reserved. | Privacy Policy | Terms of Service</p>
+   
+  </footer>
+  
+  <script src="animations.js"></script>
+</body>
+</html>

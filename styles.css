@@ -1,0 +1,215 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 550px;
+
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff5f5f;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background-color: #ff3f3f;
+}
+
+/* Services section styles */
+.services {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.services h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.service-card {
+  margin-bottom: 40px;
+}
+
+.service-card img {
+
+  border-radius: 8px;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.service-card p {
+  margin-bottom: 20px;
+}
+
+/* Testimonials section styles */
+.testimonials {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.testimonials h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.testimonial-card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.testimonial-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.customer-name {
+  font-weight: bold;
+}
+
+/* Contact section styles */
+.contact {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.contact h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff5f5f;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #ff3f3f;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-media {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media li {
+  margin-right: 10px;
+}
+
+.social-media li a img {
+  width: 24px;
+  height: 24px;
+}
+.hero {
+  background-image: url(img/Untitled\ design.jpg);
+  background-color: #0000007e;
+}
+.para {
+  background-image: url(img/Bir\ Billing\ Paragliding.jpg);
+}
